@@ -1,0 +1,218 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Filename= Dog_03.jpg    Label= dog
+
+Filename= Dog_05.jpg    Label= dog
+
+Filename= Bucket_01.jpg    Label= bucket
+
+Filename= Frog_01.jpg    Label= frog
+
+Filename= Dog_04.jpg    Label= dog
+
+Filename= Coffe_Mug_01.jpg    Label= coffe mug
+
+Filename= Dog_030.jpg    Label= dog
+
+Filename= Dog_01.jpg    Label= dog
+
+Filename= Black_Bear_01.jpg    Label= black bear
+
+Filename= Dog_040.jpg    Label= dog
+
+Filename= Dog_02.jpg    Label= dog
+
+Printing all key-value pairs in dictionary results_dic:
+Filename= Dog_03.jpg    Pet Label= dog
+Filename= Dog_05.jpg    Pet Label= dog
+Filename= Bucket_01.jpg    Pet Label= bucket
+Filename= Frog_01.jpg    Pet Label= frog
+Filename= Dog_04.jpg    Pet Label= dog
+Filename= Coffe_Mug_01.jpg    Pet Label= coffe mug
+Filename= Dog_030.jpg    Pet Label= dog
+Filename= Dog_01.jpg    Pet Label= dog
+Filename= Black_Bear_01.jpg    Pet Label= black bear
+Filename= Dog_040.jpg    Pet Label= dog
+Filename= Dog_02.jpg    Pet Label= dog
+
+Pet Image Label Dictionary has 11 key-value pairs.
+Below are 10 of them:
+ 1 key:                     Dog_03.jpg  label:                        dog
+ 2 key:                     Dog_05.jpg  label:                        dog
+ 3 key:                  Bucket_01.jpg  label:                     bucket
+ 4 key:                    Frog_01.jpg  label:                       frog
+ 5 key:                     Dog_04.jpg  label:                        dog
+ 6 key:               Coffe_Mug_01.jpg  label:                  coffe mug
+ 7 key:                    Dog_030.jpg  label:                        dog
+ 8 key:                     Dog_01.jpg  label:                        dog
+ 9 key:              Black_Bear_01.jpg  label:                 black bear
+10 key:                    Dog_040.jpg  label:                        dog
+
+     MATCH:
+
+                 Bucket_01.jpg: 
+Real:                     bucket   Classifier:                   bucket, pail
+
+             Black_Bear_01.jpg: 
+Real:                 black bear   Classifier: american black bear, black bear, ursus americanus, euarctos americanus
+
+ NOT A MATCH:
+
+                    Dog_03.jpg: 
+Real:                        dog   Classifier:                chow, chow chow
+
+                    Dog_05.jpg: 
+Real:                        dog   Classifier:                chow, chow chow
+
+                   Frog_01.jpg: 
+Real:                       frog   Classifier:           tree frog, tree-frog
+
+                    Dog_04.jpg: 
+Real:                        dog   Classifier:                chow, chow chow
+
+              Coffe_Mug_01.jpg: 
+Real:                  coffe mug   Classifier:                    pill bottle
+
+                   Dog_030.jpg: 
+Real:                        dog   Classifier:                        basenji
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                chow, chow chow
+
+                   Dog_040.jpg: 
+Real:                        dog   Classifier:                          boxer
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                chow, chow chow
+
+# Total Images 11 # Matches: 2 # NOT Matches: 9
+Warning:  corgi  is in the dictionary already.
+Warning:  affenpinscher  is in the dictionary already.
+Warning:  afghan hound  is in the dictionary already.
+Warning:  airedale terrier  is in the dictionary already.
+Warning:  alaskan malamute  is in the dictionary already.
+Warning:  american staffordshire terrier  is in the dictionary already.
+Warning:  basset hound  is in the dictionary already.
+Warning:  bloodhound  is in the dictionary already.
+Warning:  borzoi  is in the dictionary already.
+Warning:  boston terrier  is in the dictionary already.
+Warning:  bouvier des flandres  is in the dictionary already.
+Warning:  cairn terrier  is in the dictionary already.
+Warning:  cardigan welsh corgi  is in the dictionary already.
+Warning:  chow chow  is in the dictionary already.
+Warning:  clumber spaniel  is in the dictionary already.
+Warning:  cocker spaniel  is in the dictionary already.
+Warning:  corgi  is in the dictionary already.
+Warning:  dalmatian  is in the dictionary already.
+Warning:  dandie dinmont terrier  is in the dictionary already.
+Warning:  deerhound  is in the dictionary already.
+Warning:  doberman pinscher  is in the dictionary already.
+Warning:  english cocker spaniel  is in the dictionary already.
+Warning:  english springer spaniel  is in the dictionary already.
+Warning:  german shepherd dog  is in the dictionary already.
+Warning:  ibizan hound  is in the dictionary already.
+Warning:  irish setter  is in the dictionary already.
+Warning:  lhasa apso  is in the dictionary already.
+Warning:  maltese  is in the dictionary already.
+Warning:  newfoundland  is in the dictionary already.
+Warning:  norwegian elkhound  is in the dictionary already.
+Warning:  old english sheepdog  is in the dictionary already.
+Warning:  otterhound  is in the dictionary already.
+Warning:  pekingese  is in the dictionary already.
+Warning:  pembroke welsh corgi  is in the dictionary already.
+Warning:  poodle  is in the dictionary already.
+Warning:  pug  is in the dictionary already.
+Warning:  saint bernard  is in the dictionary already.
+Warning:  saluki  is in the dictionary already.
+Warning:  samoyed  is in the dictionary already.
+Warning:  schnauzer  is in the dictionary already.
+Warning:  scottish terrier  is in the dictionary already.
+Warning:  sealyham terrier  is in the dictionary already.
+Warning:  shetland sheepdog  is in the dictionary already.
+Warning:  silky terrier  is in the dictionary already.
+Warning:  staffordshire bull terrier  is in the dictionary already.
+Warning:  tibetan terrier  is in the dictionary already.
+Warning:  vizsla  is in the dictionary already.
+Warning:  walker hound  is in the dictionary already.
+
+     MATCH:
+
+                 Bucket_01.jpg: 
+Real:                     bucket   Classifier:                   bucket, pail  
+PetLabelDog: 0  ClassLabelDog: 0
+
+             Black_Bear_01.jpg: 
+Real:                 black bear   Classifier: american black bear, black bear, ursus americanus, euarctos americanus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                    Dog_03.jpg: 
+Real:                        dog   Classifier:                chow, chow chow  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_05.jpg: 
+Real:                        dog   Classifier:                chow, chow chow  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                   Frog_01.jpg: 
+Real:                       frog   Classifier:           tree frog, tree-frog  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_04.jpg: 
+Real:                        dog   Classifier:                chow, chow chow  
+PetLabelDog: 1  ClassLabelDog: 1
+
+              Coffe_Mug_01.jpg: 
+Real:                  coffe mug   Classifier:                    pill bottle  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   Dog_030.jpg: 
+Real:                        dog   Classifier:                        basenji  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                chow, chow chow  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                   Dog_040.jpg: 
+Real:                        dog   Classifier:                          boxer  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                chow, chow chow  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 11 # Matches: 2 # NOT Matches: 9
+
+ ** Statistics from calculates_results_stats() function:
+N Images: 11  N Dog Images:  7  N NotDog Images:  4 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images: 11  N Dog Images:  7  N NotDog Images:  4 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :  11
+N Dog Images        :   7
+Number of "Not-a" Dog Images:  4
+%  pct_correct_dogs  : 100.0
+%  pct_correct_notdogs  : 100.0
+%  pct_correct_breed  : 0.0
+%  pct_match  : 18.181818181818183
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:                chow, chow chow
+Real:                        dog   Classifier:                chow, chow chow
+Real:                        dog   Classifier:                chow, chow chow
+Real:                        dog   Classifier:                        basenji
+Real:                        dog   Classifier:                chow, chow chow
+Real:                        dog   Classifier:                          boxer
+Real:                        dog   Classifier:                chow, chow chow
+
+** Total Elapsed Runtime: 0:0:0
