@@ -80,25 +80,25 @@ def calculates_results_stats(results_dic):
   n_correct_breed = 0
   n_match = 0
   
-  for image in results_dic.keys():
+  for value in results_dic.values():
     # Number of Correct Dog matches: Both labels are of dogs: results_dic[key][3] = 1 and results_dic[key][4] = 1
-    if results_dic[image][3] == 1 and results_dic[image][4] == 1:
+    if value[3] == 1 and value[4] == 1:
       n_correct_dogs += 1
     # Number of Dog Images: Pet Label is a dog: results_dic[key][3] = 1
-    if results_dic[image][3] == 1:
+    if value[3] == 1:
       n_dogs_img +=1   
     # Number of Not Dog Images:
     #   number images - number dog images --OR--
     #   Pet Label is NOT a dog: results_dic[key][3] = 0
-    if results_dic[image][3] == 0:
+    if value[3] == 0 and value[4] == 0:
       n_correct_notdogs += 1
     # Number of Correct Breed matches: Pet Label is a dog & Labels match: results_dic[key][3] = 1 and results_dic[key][2] = 1
-    if results_dic[image][3] == 1 and results_dic[image][2] == 1:
+    if value[3] == 1 and value[2] == 1:
       n_correct_breed += 1
     # Number of label matches: Labels match: results_dic[key][2] = 1
-    if results_dic[image][2] == 1:
+    if value[2] == 1:
       n_match += 1
-  
+   
   results_stats_dic['n_images'] = n_images
   # Number of Correct Non-Dog matches: Both labels are NOT of dogs: results_dic[key][3] = 0 and results_dic[key][4] = 0
   results_stats_dic['n_notdogs_img'] = n_images - n_dogs_img

@@ -79,15 +79,14 @@ def adjust_results4_isadog(results_dic, dogfile):
     else:
       dognames_dic[dog_name] = 1
     
-  for file_name in results_dic.keys():
-    if results_dic[file_name][0] in dognames_dic:
-      results_dic[file_name].append(1)
+  for value in results_dic.values():
+    if value[0] in dognames_dic:
+      value.append(1)
     else:
-      results_dic[file_name].append(0)
+      value.append(0)
     
-    results_dic[file_name].append(0)
-    for dog_name in results_dic[file_name][1].split(', '):
+    value.append(0)
+    for dog_name in value[1].split(', '):
       if dog_name in dognames_dic:
-        results_dic[file_name][4] = 1
+        value[4] = 1
         break
-    
